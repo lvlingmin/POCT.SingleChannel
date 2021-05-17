@@ -1,0 +1,2 @@
+rootProject.name = "cn.biobase.poct"
+include ':app'

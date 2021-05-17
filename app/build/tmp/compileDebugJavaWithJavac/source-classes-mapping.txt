@@ -1,0 +1,15 @@
+com/example/cnbiobasepoct/BuildConfig.java
+ com.example.cnbiobasepoct.BuildConfig
+com/example/cnbiobasepoct/LoginActivity.java
+ com.example.cnbiobasepoct.LoginActivity
+ com.example.cnbiobasepoct.LoginActivity$1
+ com.example.cnbiobasepoct.LoginActivity$2
+ com.example.cnbiobasepoct.LoginActivity$3
+ com.example.cnbiobasepoct.LoginActivity$4
+ com.example.cnbiobasepoct.LoginActivity$5
+com/example/cnbiobasepoct/databinding/ActivityLoginBinding.java
+ com.example.cnbiobasepoct.databinding.ActivityLoginBinding
+com/example/cnbiobasepoct/databinding/ActivityMainBinding.java
+ com.example.cnbiobasepoct.databinding.ActivityMainBinding
+com/example/cnbiobasepoct/MainActivity.java
+ com.example.cnbiobasepoct.MainActivity
