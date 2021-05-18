@@ -15,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\123123132312\.android\avd\7_WSVGA_Tablet_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@1a0d39d4e3013411]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -28,6 +28,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android-custom-viewD:/Android Stuff/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewD:/Android Stuff/sources/android-30/android/widget/Button.java_SELECTED" value="Button" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../Android Stuff" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
@@ -114,5 +116,15 @@
       <updated>1621245329750</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1621308532771">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="605" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1600.900@0.0.1600.900" timestamp="1621308532771" />
+    <state x="380" y="154" key="AndroidThemeDialog" timestamp="1621297421169">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="380" y="154" key="AndroidThemeDialog/0.0.1600.900@0.0.1600.900" timestamp="1621297421169" />
   </component>
 </project>
