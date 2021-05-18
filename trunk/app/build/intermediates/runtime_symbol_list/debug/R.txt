@@ -1672,6 +1672,7 @@ int id beginning 0x7f080053
 int id blocking 0x7f080054
 int id bottom 0x7f080055
 int id bounce 0x7f080056
+int id btnTest 0x7f080174
 int id buttonPanel 0x7f080057
 int id cancel_button 0x7f080058
 int id center 0x7f080059

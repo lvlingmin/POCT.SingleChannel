@@ -13,3 +13,4 @@ com/example/cnbiobasepoct/databinding/ActivityMainBinding.java
  com.example.cnbiobasepoct.databinding.ActivityMainBinding
 com/example/cnbiobasepoct/MainActivity.java
  com.example.cnbiobasepoct.MainActivity
+ com.example.cnbiobasepoct.MainActivity$1
