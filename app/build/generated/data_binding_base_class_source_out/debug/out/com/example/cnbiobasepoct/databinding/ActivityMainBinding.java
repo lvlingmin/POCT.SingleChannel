@@ -4,7 +4,7 @@ package com.example.cnbiobasepoct.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.RadioButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -19,11 +19,20 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnTest;
+  public final RadioButton rbtnSearch;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnTest) {
+  @NonNull
+  public final RadioButton rbtnSetting;
+
+  @NonNull
+  public final RadioButton rbtnTest;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull RadioButton rbtnSearch,
+      @NonNull RadioButton rbtnSetting, @NonNull RadioButton rbtnTest) {
     this.rootView = rootView;
-    this.btnTest = btnTest;
+    this.rbtnSearch = rbtnSearch;
+    this.rbtnSetting = rbtnSetting;
+    this.rbtnTest = rbtnTest;
   }
 
   @Override
@@ -53,13 +62,26 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnTest;
-      Button btnTest = rootView.findViewById(id);
-      if (btnTest == null) {
+      id = R.id.rbtnSearch;
+      RadioButton rbtnSearch = rootView.findViewById(id);
+      if (rbtnSearch == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnTest);
+      id = R.id.rbtnSetting;
+      RadioButton rbtnSetting = rootView.findViewById(id);
+      if (rbtnSetting == null) {
+        break missingId;
+      }
+
+      id = R.id.rbtnTest;
+      RadioButton rbtnTest = rootView.findViewById(id);
+      if (rbtnTest == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, rbtnSearch, rbtnSetting,
+          rbtnTest);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

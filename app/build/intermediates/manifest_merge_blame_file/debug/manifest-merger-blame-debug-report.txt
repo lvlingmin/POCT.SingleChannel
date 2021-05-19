@@ -11,7 +11,7 @@
 9-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:5:5-24:19
+11-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
 12-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,30 +28,33 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.Cnbiobasepoct" >
 20-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:11:9-51
-21        <activity
-21-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:12:9-16:78
-22            android:name="com.example.cnbiobasepoct.LoginActivity"
-22-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:13:13-42
-23            android:configChanges="orientation|keyboardHidden|screenSize"
-23-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:14:13-74
-24            android:label="@string/title_activity_login"
-24-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:15:13-57
-25            android:theme="@style/Theme.Cnbiobasepoct.Fullscreen" />
-25-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:16:13-66
-26        <activity android:name="com.example.cnbiobasepoct.MainActivity" >
-26-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:17:9-23:20
-26-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:17:19-47
-27            <intent-filter>
-27-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:19:17-69
-28-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:21:17-77
-30-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33    </application>
-34
-35</manifest>
+21        <activity android:name="com.example.cnbiobasepoct.MainActivity" />
+21-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:12:9-59
+21-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:12:19-47
+22        <activity
+22-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:13:9-17:69
+23            android:name="activity.LoginActivity"
+23-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:14:13-50
+24            android:configChanges="orientation|keyboardHidden|screenSize"
+24-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:15:13-74
+25            android:label="@string/title_activity_login"
+25-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:16:13-57
+26            android:theme="@style/Theme.Cnbiobasepoct.Fullscreen" />
+26-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:17:13-66
+27        <activity android:name="activity.MainActivity" >
+27-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:18:9-24:20
+27-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:18:19-55
+28            <intent-filter>
+28-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:20:17-69
+29-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:22:17-77
+31-->D:\Work\POCT\trunk\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

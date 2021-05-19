@@ -18,12 +18,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Cnbiobasepoct" >
+        <activity android:name="com.example.cnbiobasepoct.MainActivity" />
         <activity
-            android:name="com.example.cnbiobasepoct.LoginActivity"
+            android:name="activity.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.Cnbiobasepoct.Fullscreen" />
-        <activity android:name="com.example.cnbiobasepoct.MainActivity" >
+        <activity android:name="activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

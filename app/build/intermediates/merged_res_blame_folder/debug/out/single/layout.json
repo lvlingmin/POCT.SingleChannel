@@ -1,7 +1,23 @@
 [
     {
+        "merged": "D:\\Work\\POCT\\trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setting.xml",
+        "source": "D:\\Work\\POCT\\trunk\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "D:\\Work\\POCT\\trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search.xml",
+        "source": "D:\\Work\\POCT\\trunk\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "D:\\Work\\POCT\\trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_activity.xml",
+        "source": "D:\\Work\\POCT\\trunk\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
         "merged": "D:\\Work\\POCT\\trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
         "source": "D:\\Work\\POCT\\trunk\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Work\\POCT\\trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_test.xml",
+        "source": "D:\\Work\\POCT\\trunk\\app\\src\\main\\res\\layout\\fragment_test.xml"
     },
     {
         "merged": "D:\\Work\\POCT\\trunk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
