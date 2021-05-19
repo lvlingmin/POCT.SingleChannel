@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cnbiobasepoct">
+        <activity android:name=".MainActivity"></activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="activity.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.Cnbiobasepoct.Fullscreen"></activity>
-        <activity android:name=".MainActivity">
+            android:theme="@style/Theme.Cnbiobasepoct.Fullscreen" />
+        <activity android:name="activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

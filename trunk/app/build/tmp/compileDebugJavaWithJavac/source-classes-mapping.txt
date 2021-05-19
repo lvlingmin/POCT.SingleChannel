@@ -1,16 +1,36 @@
+activity/TestFragment.java
+ activity.TestFragment
+com/example/cnbiobasepoct/databinding/MainActivityBinding.java
+ com.example.cnbiobasepoct.databinding.MainActivityBinding
+activity/SettingFragment.java
+ activity.SettingFragment
+activity/MainActivity.java
+ activity.MainActivity
+ activity.MainActivity$1
+ activity.MainActivity$2
+ activity.MainActivity$3
+com/example/cnbiobasepoct/databinding/FragmentSettingBinding.java
+ com.example.cnbiobasepoct.databinding.FragmentSettingBinding
+com/example/cnbiobasepoct/databinding/FragmentSearchBinding.java
+ com.example.cnbiobasepoct.databinding.FragmentSearchBinding
 com/example/cnbiobasepoct/BuildConfig.java
  com.example.cnbiobasepoct.BuildConfig
-com/example/cnbiobasepoct/LoginActivity.java
- com.example.cnbiobasepoct.LoginActivity
- com.example.cnbiobasepoct.LoginActivity$1
- com.example.cnbiobasepoct.LoginActivity$2
- com.example.cnbiobasepoct.LoginActivity$3
- com.example.cnbiobasepoct.LoginActivity$4
- com.example.cnbiobasepoct.LoginActivity$5
+activity/SearchFragment.java
+ activity.SearchFragment
+bean/FragmentState.java
+ bean.FragmentState
+activity/LoginActivity.java
+ activity.LoginActivity
+ activity.LoginActivity$1
+ activity.LoginActivity$2
+ activity.LoginActivity$3
+ activity.LoginActivity$4
+ activity.LoginActivity$5
 com/example/cnbiobasepoct/databinding/ActivityLoginBinding.java
  com.example.cnbiobasepoct.databinding.ActivityLoginBinding
 com/example/cnbiobasepoct/databinding/ActivityMainBinding.java
  com.example.cnbiobasepoct.databinding.ActivityMainBinding
-com/example/cnbiobasepoct/MainActivity.java
- com.example.cnbiobasepoct.MainActivity
- com.example.cnbiobasepoct.MainActivity$1
+bean/SampleInfo.java
+ bean.SampleInfo
+com/example/cnbiobasepoct/databinding/FragmentTestBinding.java
+ com.example.cnbiobasepoct.databinding.FragmentTestBinding
